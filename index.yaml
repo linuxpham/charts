@@ -5,9 +5,6 @@ entries:
     created: "2022-12-17T19:34:08.521327+07:00"
     description: Create undermoon CRD.
     digest: 901b1649e1308bfb2a629e3e3b1adc9a350947ea0e0375093c43884f246f56c3
-    maintainers:
-    - email: doyoubihgx@gmail.com
-      name: doyoubi
     name: undermoon-cluster
     type: application
     urls:
@@ -20,9 +17,6 @@ entries:
     description: Undermoon operator is used to manage undermoon provideing redis cluster
       services.
     digest: b3352e8b0a60f692c30dbb8bc3330e0b1be772ed6be99c2d7cdd2ecd77f7de9d
-    maintainers:
-    - email: doyoubihgx@gmail.com
-      name: doyoubi
     name: undermoon-operator
     type: application
     urls:
@@ -35,9 +29,6 @@ entries:
     description: Undermoon scheduler is an optional component used to add additional
       scheduling rules.
     digest: 87503437af0cce67c0ba5d8878c1adbf98b3b8f9ef0b6a3014456c3ee740796c
-    maintainers:
-    - email: doyoubihgx@gmail.com
-      name: doyoubi
     name: undermoon-scheduler
     type: application
     urls:
