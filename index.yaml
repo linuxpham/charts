@@ -11,7 +11,7 @@ entries:
     name: undermoon-cluster
     type: application
     urls:
-    - https://linuxpham.github.io/charts/undermoon-cluster-0.4.2-dev0.tgz
+    - https://github.com/linuxpham/charts/raw/main/undermoon-cluster-0.4.2-dev0.tgz
     version: 0.4.2-dev0
   undermoon-operator:
   - apiVersion: v2
@@ -26,7 +26,7 @@ entries:
     name: undermoon-operator
     type: application
     urls:
-    - https://linuxpham.github.io/charts/undermoon-operator-0.4.2-dev0.tgz
+    - https://github.com/linuxpham/charts/raw/main/undermoon-operator-0.4.2-dev0.tgz
     version: 0.4.2-dev0
   undermoon-scheduler:
   - apiVersion: v2
@@ -41,6 +41,6 @@ entries:
     name: undermoon-scheduler
     type: application
     urls:
-    - https://linuxpham.github.io/charts/undermoon-scheduler-0.4.2-dev0.tgz
+    - https://github.com/linuxpham/charts/raw/main/undermoon-scheduler-0.4.2-dev0.tgz
     version: 0.4.2-dev0
 generated: "2022-12-17T19:34:08.502695+07:00"
