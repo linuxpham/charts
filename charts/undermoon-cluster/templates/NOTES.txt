@@ -1,0 +1,12 @@
+1. Redis cluster address:
+
+{{ include "undermoon-cluster.public_storage_service_name" . }}.{{ .Release.Namespace }}.svc.cluster.local:{{ .Values.cluster.port }}
+
+2. Scaling the cluster
+Edit the undermoon resource:
+```
+kubectl edit "undermoon/{{ include "undermoon-cluster.fullname" . }}" --namespace "{{ .Release.Namespace }}"
+```
+
+Change the `chunkNumber` to any positive value and save.
+Note that 1 chunk consists of 2 masters and 2 replicas.

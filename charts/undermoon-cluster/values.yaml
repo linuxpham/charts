@@ -1,0 +1,59 @@
+# Default values for undermoon-cluster.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+cluster:
+  clusterName: woka-undermoon
+  chunkNumber: 1
+  maxMemory: 1024  # in MBs
+  port: 5299
+  activeRedirection: false
+  proxyThreads: 4
+  migrationScanInterval: 1000
+  migrationScanCount: 16
+  migrationLimit: 2
+  disableFailover: false
+
+image:
+  undermoonImage: doyoubi/undermoon
+  undermoonImageTag: 0.6.1-buster
+  undermoonImagePullPolicy: IfNotPresent
+  redisImage: redis
+  redisImageTag: 5.0.14
+
+envVar:
+  broker: []
+  coordinator: []
+  proxy: []
+  redis: []
+
+resources:
+  brokerResources:
+    limits:
+      {}
+      # memory: "1G"
+  coordinatorResources:
+    limits:
+      {}
+      # memory: "1G"
+  proxyResources:
+    limits:
+      {}
+      # memory: "1G"
+  redisResources:
+    limits:
+      {}
+      # memory: "5G"
+
+affinity: {}
+nodeSelector: {}
+imagePullSecrets: []
+schedulerName: ""
+tolerations: []
+storageVolumes: []
+redisVolumeMounts: []
+redisVolumeDevices: []
+volumeClaimTemplates: []
+
+nameOverride: ""
+fullnameOverride: ""

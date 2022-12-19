@@ -2,45 +2,36 @@ apiVersion: v1
 entries:
   undermoon-cluster:
   - apiVersion: v2
-    created: "2022-12-17T20:13:54.804053+07:00"
+    created: "2022-12-19T22:02:23.111252+07:00"
     description: Create undermoon CRD.
-    digest: 95849b3dbd43ab518bd7b67d8d1544d0e293dcf9e44b28710f37a2101b38e83e
-    maintainers:
-    - email: doyoubihgx@gmail.com
-      name: doyoubi
+    digest: e16fdd80d7e1b9fa03dc89591a4ba669a21715b83b278efe94a3676ee6bbc032
     name: undermoon-cluster
     type: application
     urls:
-    - https://linuxpham.github.io/charts/undermoon-cluster-0.4.2-dev0.tgz
-    version: 0.4.2-dev0
+    - https://github.com/linuxpham/charts/undermoon-cluster-0.4.2.tgz
+    version: 0.4.2
   undermoon-operator:
   - apiVersion: v2
-    appVersion: v0.4.2-dev0
-    created: "2022-12-17T20:13:54.804843+07:00"
+    appVersion: v0.4.2
+    created: "2022-12-19T22:02:23.112174+07:00"
     description: Undermoon operator is used to manage undermoon provideing redis cluster
       services.
-    digest: 3dffd72dd9e4d8289cbc2f92cdc2f0282d29c028b810ca020032fca5aec7f664
-    maintainers:
-    - email: doyoubihgx@gmail.com
-      name: doyoubi
+    digest: b86dc483f1d3436b7274a364e7c8c85db87af26a34b2a4f82cd0a47224ddadc4
     name: undermoon-operator
     type: application
     urls:
-    - https://linuxpham.github.io/charts/undermoon-operator-0.4.2-dev0.tgz
-    version: 0.4.2-dev0
+    - https://github.com/linuxpham/charts/undermoon-operator-0.4.2.tgz
+    version: 0.4.2
   undermoon-scheduler:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2022-12-17T20:13:54.805105+07:00"
+    created: "2022-12-19T22:02:23.112418+07:00"
     description: Undermoon scheduler is an optional component used to add additional
       scheduling rules.
-    digest: 37816f676f6ef775a1d346de4c937c03482f62c0c72c826a2ae08423dfb3d1fd
-    maintainers:
-    - email: doyoubihgx@gmail.com
-      name: doyoubi
+    digest: 46e611fb8187e30a8761f34d4b87d541bd8d9c47480c261e7716f10d4a14e641
     name: undermoon-scheduler
     type: application
     urls:
-    - https://linuxpham.github.io/charts/undermoon-scheduler-0.4.2-dev0.tgz
-    version: 0.4.2-dev0
-generated: "2022-12-17T20:13:54.803512+07:00"
+    - https://github.com/linuxpham/charts/undermoon-scheduler-0.4.2.tgz
+    version: 0.4.2
+generated: "2022-12-19T22:02:23.109552+07:00"
