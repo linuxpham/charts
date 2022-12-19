@@ -10,4 +10,4 @@ helm package ${CHART_PATH}/charts/undermoon-scheduler
 echo "Package this chart - undermoon-operator"
 helm package ${CHART_PATH}/charts/undermoon-operator
 
-helm repo index ${CHART_PATH}/ --url https://github.com/linuxpham/charts
+helm repo index ${CHART_PATH}/ --url https://linuxpham.github.io/charts
