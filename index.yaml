@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   undermoon-cluster:
   - apiVersion: v2
-    created: "2022-12-19T22:02:23.111252+07:00"
+    created: "2022-12-19T22:32:04.029262+07:00"
     description: Create undermoon CRD.
-    digest: e16fdd80d7e1b9fa03dc89591a4ba669a21715b83b278efe94a3676ee6bbc032
+    digest: fc3c53d6a76c872241e618721749112448d39cc7de243d02a3ed37d5958a1f56
     name: undermoon-cluster
     type: application
     urls:
@@ -13,10 +13,10 @@ entries:
   undermoon-operator:
   - apiVersion: v2
     appVersion: v0.4.2
-    created: "2022-12-19T22:02:23.112174+07:00"
+    created: "2022-12-19T22:32:04.030008+07:00"
     description: Undermoon operator is used to manage undermoon provideing redis cluster
       services.
-    digest: b86dc483f1d3436b7274a364e7c8c85db87af26a34b2a4f82cd0a47224ddadc4
+    digest: 392b8d58f2877e24c935d30124b5ebaa08c847c749706496aec1557d6561e758
     name: undermoon-operator
     type: application
     urls:
@@ -25,13 +25,13 @@ entries:
   undermoon-scheduler:
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2022-12-19T22:02:23.112418+07:00"
+    created: "2022-12-19T22:32:04.030225+07:00"
     description: Undermoon scheduler is an optional component used to add additional
       scheduling rules.
-    digest: 46e611fb8187e30a8761f34d4b87d541bd8d9c47480c261e7716f10d4a14e641
+    digest: 192d18752017bc5b0583cafab97be07f8cb7fcd8e5c8b3ebf5200abd058a06b3
     name: undermoon-scheduler
     type: application
     urls:
     - https://github.com/linuxpham/charts/undermoon-scheduler-0.4.2.tgz
     version: 0.4.2
-generated: "2022-12-19T22:02:23.109552+07:00"
+generated: "2022-12-19T22:32:04.028767+07:00"
